@@ -1,6 +1,9 @@
 a{
   text-decoration: none;
   color: black;
+  font-family: arial,sans-serif;
+  font-size: small;
+  color: #7B6666;
 }
 header {
   text-align: right;
@@ -17,7 +20,7 @@ input {
   width: 530px;
   height: 30px;
   border-radius: 2px;
-  box-shadow: 3px lightgrey;
+  box-sizing: border-box;
 }
 #first {
   margin-left: 530px;
@@ -35,9 +38,8 @@ footer {
   padding-bottom: 8px;
   padding-top: 15px;
   margin-top: 160px;
-  margin-left: 0;
-  margin-right: 0;
 }
-.right {
-   margin-left: 260px;
+#right {
+   float: right;
+   display: inline-block;
 }
