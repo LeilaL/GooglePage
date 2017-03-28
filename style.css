@@ -1,30 +1,43 @@
+a{
+  text-decoration: none;
+  color: black;
+}
 header {
   text-align: right;
 }
-h1{
-  text-align: center;
-  font-size: 70px;
-  margin-top: 150px;
-}
-p {
-  text-align: center;
+img {
+  height: 92px;
+  width: 272px;
+  margin-left: 540px;
+  margin-top: 170px;
 }
 input {
-  margin-left: 350px;
+  margin-left: 400px;
+  margin-top: 20px;
+  width: 530px;
   height: 30px;
-  width: 620px;
+  border-radius: 2px;
+  box-shadow: 3px lightgrey;
 }
-button {
-  margin-top: 25px;
-  margin-left: 500px;
+#first {
+  margin-left: 530px;
+  margin-top: 30px;
+  border-radius: 2px;
 }
 #second {
+  margin-top: 30px;
   margin-left: auto;
+  border-radius: 2px;
 }
 footer {
-margin-top: 143px;
-background-color:
+  background-color: #F2F2F2;
+  color: black;
+  padding-bottom: 8px;
+  padding-top: 15px;
+  margin-top: 160px;
+  margin-left: 0;
+  margin-right: 0;
 }
-a{
-  text-decoration: none;
+.right {
+   margin-left: 260px;
 }
