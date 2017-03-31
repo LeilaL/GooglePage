@@ -16,10 +16,10 @@ header {
 #carré {
   height: 23px;
   width: 23px;
-  display: inline-block;
   margin-top: 12px;
   margin-left: 13px;
-  color: #252525;
+  color: black;
+  opacity: 0.70;
 }
 
 #connexion {
@@ -70,7 +70,6 @@ input {
   border-radius: 2px;
   font-family: arial,sans-serif;
   background-color: #F7F7F7;
-  <!-- modifier le style du bouton -->
 }
 
 footer {
@@ -78,9 +77,7 @@ footer {
   color: black;
   padding-bottom: 10px;
   padding-top: 15px;
-  margin-bottom: 0;
-  <!-- enlever les marges left right bottom -->
-  <!-- écarter le texte -->
+  margin-top: 100px;
 }
 
 #left{
